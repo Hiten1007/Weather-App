@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js" defer></script>
+</head>
+<body class = "main">
+    <div>
+        <div class = "header">
+            <h1 class = "head">Sky Sync</h1>
+            <img src = "SVGs/reshot-icon-weather-8CKJB9YN7X.svg" height = "50px" width = "75px" style = "margin-top : 0.5rem;">
+        </div>
+        <div class = "parts">
+            <div class = "input">
+                <label for = "city" style = "color : white; font-size: large; margin-bottom: 8px;">Enter a city :</label>
+                <div style="display: flex; justify-content: space-between;">
+                    <input type = "text" id = "city" name = "city">
+                    <img src ="./SVGs/magnify.svg" height = "20px" width="20px" style = "margin-left : 0.4rem" class = "svg">
+                </div>
+            </div>
+            <div class = "systems">
+                <button id = "metric" class = "buttons">C° \ m/s</button>
+                <button id = "random" class = "buttons">F° \ mph</button>
+            </div>
+        </div>
+    </div>
+    <div class = "cards">
+        <div class = "result"></div>
+        <div class = "examples"></div>
+    </div>
+
+</body>
+</html>

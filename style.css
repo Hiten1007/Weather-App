@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726444800&semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    margin:1rem 0.2rem 0 0;
+    color: white;
+}
+
+.parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 5rem;
+}
+
+.buttons{
+    padding: 0.8rem 2rem;
+    margin:1rem;
+    color: white;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+#metric{
+    background-color: #E167A6;
+    border-color: #E167A6;
+   
+}
+
+#random{
+    background-color: blue;
+    border-color: blue;
+}
+
+.systems{
+    margin-right: 3rem;
+}
+
+.cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.examples{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.boxes{
+    margin-right:40px;
+    padding: 30px;
+    background-color: #5FC7FB50;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.properties{
+    display: flex;
+    flex-direction: row;
+    margin:1rem;
+    padding:1rem;
+}
+
+.boxhead{
+    display: flex;
+    justify-content: center;
+    color : yellow;
+}
+
+.property, .value{
+    color:white;
+    padding:4px;
+    font-weight: bold;
+}
+
+.conditions{
+    display: flex;
+    justify-content: space-around;
+
+}
