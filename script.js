@@ -190,11 +190,12 @@ weatherApp.setupEventListeners();
 
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/service-worker.js') // Adjusted path
+      navigator.serviceWorker.register('/Weather-App/service-worker.js')  // Make sure this path is correct
         .then((registration) => {
           console.log('Service Worker registered with scope:', registration.scope);
-        }).catch((error) => {
+        })
+        .catch((error) => {
           console.log('Service Worker registration failed:', error);
         });
     });
-  }
+}
