@@ -22,7 +22,8 @@ const URLs_TO_CACHE = [
   '/Weather-App/SVGs/reshot-icon-umbrella-with-rain-GA92PSB65X.svg',
   '/Weather-App/SVGs/reshot-icon-heavy-snowing-T6VYHUANP7.svg',
   '/Weather-App/SVGs/reshot-icon-weather-8CKJB9YN7X.svg',
-  '/Weather-App/SVGs/reshot-icon-light-rain-FSB7JXM9VR.svg'
+  '/Weather-App/SVGs/reshot-icon-light-rain-FSB7JXM9VR.svg',
+  '/Weather-App/SVGs/gorgeous-clouds-background-with-blue-sky-design_1017-25501.avif'
 ];
 
 self.addEventListener('install', (event) => {
