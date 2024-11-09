@@ -181,9 +181,20 @@ const weatherApp = (() => {
     return image;
    }
 
+   
     return { getInfo, init, display, setupEventListeners};
 })();
 
 weatherApp.display();
-
 weatherApp.setupEventListeners();
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/Weather-App/service-worker.js') // Adjusted path
+        .then((registration) => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }).catch((error) => {
+          console.log('Service Worker registration failed:', error);
+        });
+    });
+  }
