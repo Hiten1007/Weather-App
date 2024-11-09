@@ -1,4 +1,4 @@
-const CACHE_NAME = 'weather-app-cache-v1';
+const CACHE_NAME = 'weather-app-cache-v8';
 
 const URLs_TO_CACHE = [
   '/',
